@@ -1,0 +1,62 @@
+.team {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  &__item {
+    width: calc(33.33% - 10rem);
+  }
+  &__item-img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  &__content {
+    text-align: center;
+  }
+  &__item-name {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #212529;
+  }
+  &__item-position {
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(88, 87, 87);
+    margin-bottom: 3rem;
+  }
+  &__item-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__contact-link {
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem;
+    display: inline-block;
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__contact-icon {
+    font-size: 2rem;
+  }
+  &__contact-link:not(:last-child) {
+    margin-right: 2rem;
+  }
+  &__desc {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70rem;
+    padding-bottom: 10rem;
+    font-size: 2rem;
+    color: rgb(88, 87, 87);
+    font-weight: 300;
+  }
+}

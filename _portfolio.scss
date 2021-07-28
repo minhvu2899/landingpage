@@ -1,0 +1,41 @@
+.portfolio {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.1rem;
+  }
+  &__item {
+    width: calc(33.33% - 1.4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item-name {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #212529;
+  }
+  &__item-desc {
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(88, 87, 87);
+    margin-bottom: 3rem;
+  }
+  &__content {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+  }
+  @media screen and (max-width: 1023px) {
+    &__list {
+      flex-wrap: wrap;
+    }
+    &__item {
+      width: calc(50% - 1.4rem);
+    }
+  }
+}

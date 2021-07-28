@@ -1,0 +1,33 @@
+.service {
+  background-color: #fff;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+  }
+  &__item {
+    width: calc(33.33% - 4rem);
+    text-align: center;
+  }
+  &__item-icon {
+    padding: 3.5rem;
+    font-size: 3rem;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fed136;
+    color: #fff;
+    margin-bottom: 2.5rem;
+  }
+  &__item-name {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+  }
+  &__item-desc {
+    color: #5d5f61;
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 1023px) {
+  }
+}
